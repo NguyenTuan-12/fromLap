@@ -1,0 +1,263 @@
+body, html {
+  font-size: 14px;
+}
+
+.header-sticky {
+  background: #ffba00;
+}
+
+.header-sticky .header-category {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+  padding: 0 200px;
+}
+
+.header-sticky .header-category .header-category-logo {
+  position: relative;
+}
+
+.header-sticky .header-category .header-category-logo img {
+  height: 110px;
+  position: absolute;
+  top: -25px;
+}
+
+.header-sticky .header-category .header-category-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 66%;
+}
+
+.header-sticky .header-category .header-category-list a {
+  color: #252121;
+  text-decoration: none;
+}
+
+.header-sticky .header-category .header-category-list a:hover {
+  color: #555353;
+}
+
+.header-sticky .header-customer-interactive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0 200px;
+}
+
+.header-sticky .header-customer-interactive .header-search {
+  width: 60%;
+}
+
+.header-sticky .header-customer-interactive .header-search input {
+  width: 100%;
+  height: 120%;
+  border-radius: 5px;
+  border: none;
+}
+
+.header-sticky .header-customer-interactive .header-customer-login {
+  width: 15%;
+  text-align: center;
+}
+
+.header-sticky .header-customer-interactive .header-customer-login a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header-sticky .header-customer-interactive .header-customer-login i {
+  font-size: 30px;
+}
+
+.header-sticky .header-customer-interactive .header-customer-post a {
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #fc9807;
+  color: #fff;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 0.33;
+  letter-spacing: normal;
+  border-radius: 4px;
+  padding: 9.5px 20px;
+  text-decoration: none;
+}
+
+.header-breadcrumb {
+  padding: 5px 200px;
+  background: #f1ecec;
+}
+
+.content-page {
+  background: #f1ecec;
+  padding: 50px 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.content-page .content-about-product {
+  width: 65%;
+  background: white;
+  padding: 20px 20px 0 20px;
+}
+
+.content-page .content-about-product .product-img {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://cdn.shopify.com/s/files/1/1671/4741/products/BareArmour-MinimalistShockResistantCaseforiPhone12ProandiPhone12ProMax-Blue_68844f50-3dab-4319-82a2-e5685fe7fe7b_2000x.jpg?v=1607950732");
+  background-size: cover;
+}
+
+.content-page .content-about-product .product-owner-note {
+  padding: 10px;
+}
+
+.content-page .content-about-product .product-infor {
+  line-height: 28px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content-page .content-about-product .product-infor .product-infor-detail {
+  width: 40%;
+}
+
+.content-page .content-about-product .product-about-ask {
+  padding-top: 50px;
+}
+
+.content-page .content-about-product .product-about-ask p {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #cec4c4;
+}
+
+.content-page .content-about-owner {
+  width: 33%;
+  background: white;
+  padding: 20px 20px 20px 0;
+}
+
+.content-page .content-about-owner .owner-status {
+  border-top: 1px solid #cec4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-page .content-about-owner .owner-status .owner-status-infor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.content-page .content-about-owner .owner-status .owner-status-infor .owner-status-img {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0eVE-pIBsgegSN-Yw3C8LOfCS2GvgbUiNRQ&usqp=CAU");
+  background-size: cover;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.content-page .content-about-owner .owner-status .owner-status-infor .owner-status-detail {
+  padding: 2px 0;
+  line-height: 12px;
+  font-size: 12px;
+}
+
+.content-page .content-about-owner .owner-rate {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cec4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.content-page .content-about-owner .owner-rate .owner-rate-menu {
+  text-align: center;
+}
+
+.content-page .content-about-owner .owner-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+}
+
+.content-page .content-about-owner .notice-from-page {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.content-page .content-about-owner .notice-from-page .notice-from-page-img {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Vinfast-D.Beckham-cropped.jpg/1200px-Vinfast-D.Beckham-cropped.jpg");
+  background-size: cover;
+  width: 120%;
+  height: 100px;
+  margin-right: 10px;
+}
+
+#footer {
+  background: #f1ecec;
+  padding: 20px 200px;
+  color: #a59292;
+}
+
+#footer .about-us {
+  text-align: center;
+}
+
+#footer .end-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=chitiet-sp.css.map */

@@ -1,0 +1,192 @@
+body,html {
+    font-size: 14px;
+}
+.header-sticky {
+    background: rgb(255, 186, 0);
+    // position: sticky;
+    .header-category {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        padding: 0 200px;
+        .header-category-logo {
+            position: relative;
+            img {
+                height: 110px;
+                position: absolute;
+                top: -25px;
+                
+            }
+        }
+        .header-category-list {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 66%;
+            a  {
+                color: rgb(37, 33, 33);
+                text-decoration: none;
+                &:hover {
+                    color: rgb(85, 83, 83);
+                }
+            }
+        }
+    }  
+    .header-customer-interactive {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 200px;
+        .header-search {
+            width: 60%;
+            input {
+                width: 100%;
+                height: 120%;
+                border-radius: 5px;
+                border: none;
+            }
+        }
+        .header-customer-login {
+            width: 15%;
+            text-align: center;
+            a {
+                color: black;
+                font-size: 18px;
+                text-decoration: none;
+            }
+            i {
+                font-size: 30px;
+            }
+        }
+        .header-customer-post {
+            a {
+                height: 30px;
+                text-align: center;
+                text-transform: uppercase;
+                background: #fc9807;
+                color: #fff;
+                font-size: 15px;
+                font-stretch: normal;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 0.33;
+                letter-spacing: normal;
+                border-radius: 4px;
+                padding: 9.5px 20px;
+                text-decoration: none;
+            }
+        }
+
+    }
+}
+
+.header-breadcrumb {
+    padding: 5px 200px;
+    background: rgb(241, 236, 236);
+}
+
+.content-page {
+    background: rgb(241, 236, 236);
+    padding: 50px 200px;
+    display: flex;
+    justify-content: flex-start;
+    .content-about-product {
+        width: 65%;
+        background: white;
+        padding: 20px 20px 0 20px;
+        .product-img {
+            width: 100%;
+            height: 400px;
+            background-image: url("https://cdn.shopify.com/s/files/1/1671/4741/products/BareArmour-MinimalistShockResistantCaseforiPhone12ProandiPhone12ProMax-Blue_68844f50-3dab-4319-82a2-e5685fe7fe7b_2000x.jpg?v=1607950732");
+            background-size: cover;
+        }
+        .product-owner-note {
+            padding: 10px;
+        }
+        .product-infor {
+            line-height: 28px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .product-infor-detail {
+                width: 40%;
+            }
+        }
+        .product-about-ask {
+            padding-top: 50px;
+            p {
+                padding-bottom: 5px;
+                border-bottom: 1px solid rgb(206, 196, 196);
+            }
+        }
+    }
+    .content-about-owner {
+        width: 33%;
+        background: white;
+        padding: 20px 20px 20px 0;
+        .owner-status {
+            border-top: 1px solid rgb(206, 196, 196);
+            display: flex;
+            padding-top: 20px;
+            justify-content: space-between;
+            .owner-status-infor {
+                display: flex;
+                justify-content: flex-start;
+                .owner-status-img {
+                    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0eVE-pIBsgegSN-Yw3C8LOfCS2GvgbUiNRQ&usqp=CAU");
+                    background-size: cover;
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                }
+                .owner-status-detail {
+                    padding: 2px 0;
+                    line-height: 12px;
+                    font-size: 12px;
+                }
+            }
+
+        }
+        .owner-rate {
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgb(206, 196, 196);
+            display: flex;
+            justify-content: space-around;
+            .owner-rate-menu {
+               text-align: center;
+            }
+        }
+        .owner-contact {
+            display: flex;
+            justify-content: space-between;
+            font-size: 16px;
+        }
+        .notice-from-page {
+            margin-top: 20px;
+            display: flex;
+            justify-content: flex-start;
+            .notice-from-page-img {
+                background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Vinfast-D.Beckham-cropped.jpg/1200px-Vinfast-D.Beckham-cropped.jpg");
+                background-size: cover;
+                width: 120%;
+                height: 100px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+#footer {
+    background: rgb(241, 236, 236);
+    padding: 20px 200px;
+    color: rgb(165, 146, 146);
+    .about-us {
+        text-align: center;
+    }
+    .end-page {
+        display: flex;
+        justify-content: space-around;
+    }
+}

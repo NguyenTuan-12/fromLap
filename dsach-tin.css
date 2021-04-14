@@ -1,0 +1,308 @@
+body, html {
+  font-size: 14px;
+}
+
+.item-circle {
+  background: #f1ecec;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+}
+
+.header-sticky {
+  background: #ffba00;
+}
+
+.header-sticky .header-category {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+  padding: 0 200px;
+}
+
+.header-sticky .header-category .header-category-logo {
+  position: relative;
+}
+
+.header-sticky .header-category .header-category-logo img {
+  height: 110px;
+  position: absolute;
+  top: -25px;
+}
+
+.header-sticky .header-category .header-category-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 66%;
+}
+
+.header-sticky .header-category .header-category-list a {
+  color: #252121;
+  text-decoration: none;
+}
+
+.header-sticky .header-category .header-category-list a:hover {
+  color: #555353;
+}
+
+.header-sticky .header-customer-interactive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0 200px;
+}
+
+.header-sticky .header-customer-interactive .header-search {
+  width: 60%;
+}
+
+.header-sticky .header-customer-interactive .header-search input {
+  width: 100%;
+  height: 120%;
+  border-radius: 5px;
+  border: none;
+}
+
+.header-sticky .header-customer-interactive .header-customer-login {
+  width: 15%;
+  text-align: center;
+}
+
+.header-sticky .header-customer-interactive .header-customer-login a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header-sticky .header-customer-interactive .header-customer-login i {
+  font-size: 30px;
+}
+
+.header-sticky .header-customer-interactive .header-customer-post a {
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #fc9807;
+  color: #fff;
+  font-size: 15px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 0.33;
+  letter-spacing: normal;
+  border-radius: 4px;
+  padding: 9.5px 20px;
+  text-decoration: none;
+}
+
+#header .header-filter {
+  padding: 5px 200px;
+}
+
+#header .header-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#header .header-filter-function {
+  padding: 6px 10px;
+  border: 1px solid #b8a6a6;
+  border-radius: 3px;
+}
+
+#header .header-filter-function a {
+  color: black;
+  text-decoration: none;
+}
+
+#header .header-breadcrumb {
+  padding: 5px 190px;
+  background: #f1ecec;
+}
+
+#content-page {
+  padding: 20px 200px 20px 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: #f1ecec;
+}
+
+#content-page .sidebar-content {
+  background-image: url("https://images.unsplash.com/photo-1526512340740-9217d0159da9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8dmVydGljYWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+  width: 33%;
+}
+
+.main-content {
+  width: 65%;
+}
+
+.main-content .content-suggest-product {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+.main-content .content-suggest-product .content-suggest-product-menu {
+  width: 15%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-content .content-mall-shop {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fe9900;
+}
+
+.main-content .content-mall-shop p {
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-content .content-mall-shop .shop-bigger {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-content .content-list-item .content-list-item-menu a {
+  width: 22%;
+  color: black;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.main-content .content-list-item .content-list-chosen {
+  font-weight: bold;
+}
+
+.main-content .content-list-item .content-list-chosen:after {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 22%;
+  content: "";
+  height: 3px;
+  background: #ffba00;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.main-content .item-list {
+  background: white;
+}
+
+.main-content .item-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-content .item-list .item-list-detail {
+  padding: 10px 10px 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-content .item-list .item-list-detail:hover {
+  color: blue;
+  -webkit-box-shadow: 0 0 10px 5px grey;
+          box-shadow: 0 0 10px 5px grey;
+}
+
+.main-content .item-list .item-list-detail .item-list-img {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-image: url("https://image.thanhnien.vn/768/uploaded/nthanhluan/2020_10_21/3_ijnx.jpg");
+}
+
+.main-content .item-list .item-list-detail .item-list-infor {
+  padding-left: 10px;
+  position: relative;
+}
+
+.main-content .item-list .item-list-detail .item-list-infor .item-list-infor-shop {
+  position: absolute;
+  left: 10px;
+  bottom: -15px;
+  color: #a89d9d;
+}
+
+#footer {
+  background: #f1ecec;
+  padding: 20px 200px;
+  color: #a59292;
+}
+
+#footer .about-us {
+  text-align: center;
+}
+
+#footer .end-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=dsach-tin.css.map */
